@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Recorder Tool</title>
+  <link rel="stylesheet" href="ScreenRecorder.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Screen Recorder Tool</h1>
+    <div class="controls">
+        <div class="controls">
+            <button id="startBtn" class="action-btn">Start Recording</button>
+            <button id="stopBtn" class="action-btn">Stop Recording</button>
+            <button id="downloadBtn" class="action-btn">Download Video</button>
+          </div>          
+    </div>
+    <video id="recordedVideo" controls></video>
+  </div>
+  <script src="recordRTC.min.js"></script>
+  <script src="ScreenRecorder.js"></script>
+</body>
+</html>
